@@ -12,6 +12,10 @@ local prefabs = {
 	"beardhair"
 }
 
+local start_inv = {
+	
+}
+
 -- When loading or spawning the character
 local function onload(inst)
 	
@@ -43,4 +47,4 @@ local master_postinit = function(inst)
 	inst.OnNewSpawn = onload
 end
 
-return MakePlayerCharacter("steve", prefabs, assets, common_postinit, master_postinit)
+return MakePlayerCharacter("steve", prefabs, assets, common_postinit, master_postinit, start_inv)
