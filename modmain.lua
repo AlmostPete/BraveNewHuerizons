@@ -157,10 +157,10 @@ local STRINGS = GLOBAL.STRINGS
 
 -- Set the Character descriptions
 -- ========== COREY ==========
-GLOBAL.STRINGS.CHARACTER_TITLES.corey = "The Corey"
+GLOBAL.STRINGS.CHARACTER_TITLES.corey = "A Fucking Might Bean"
 GLOBAL.STRINGS.CHARACTER_NAMES.corey = "Corey" 
 GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.corey = "*A thing about this person."
-GLOBAL.STRINGS.CHARACTER_QUOTES.corey = "\"Corey quote.\""
+GLOBAL.STRINGS.CHARACTER_QUOTES.corey = "\"Those were people?\""
 -- ========== JOSIAH ==========
 GLOBAL.STRINGS.CHARACTER_TITLES.josiah = "The Josiah"
 GLOBAL.STRINGS.CHARACTER_NAMES.josiah = "Clefspeare" 
@@ -178,7 +178,7 @@ GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sam = "*A thing about this person."
 GLOBAL.STRINGS.CHARACTER_QUOTES.sam = "\"Bottom Text\""
 -- ========== SARAH ==========
 GLOBAL.STRINGS.CHARACTER_TITLES.sarah = "The Cooking Matriarch"
-GLOBAL.STRINGS.CHARACTER_NAMES.sarah = "Sarah" 
+GLOBAL.STRINGS.CHARACTER_NAMES.sarah = "Squad Mom" 
 GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sarah = "*A thing about this person."
 GLOBAL.STRINGS.CHARACTER_QUOTES.sarah = "\"Eat this, you little shit!\""
 -- ========== SEAN ==========

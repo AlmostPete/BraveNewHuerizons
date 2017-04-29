@@ -30,18 +30,21 @@ end
 -- This initializes for the server only. Components are added here.
 local master_postinit = function(inst)
 	-- choose which sounds this character will play
-	inst.soundsname = "wilson"
+	inst.soundsname = "wendy"
 	
 	-- Stats	
 	inst.components.health:SetMaxHealth(150)
 	inst.components.hunger:SetMax(150)
-	inst.components.sanity:SetMax(200)
+	inst.components.sanity:SetMax(70)
 	
 	-- Damage multiplier (optional)
 	inst.components.combat.damagemultiplier = 1
 	
 	-- Hunger rate (optional)
 	inst.components.hunger.hungerrate = 1 * TUNING.WILSON_HUNGER_RATE
+
+	-- Sanity stuff
+	inst.components.sanity.night_drain_mult = 1.5
 	
 	inst.OnLoad = onload
 	inst.OnNewSpawn = onload

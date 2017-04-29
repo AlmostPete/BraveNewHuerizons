@@ -22,8 +22,8 @@ local function onload(inst)
 end
 
 -- Custom sanity function
-local SEASON_SANITY_TUNING_RATE = 3.3
-local RAIN_SANITY_TUNING_RATE = 6.6
+local SEASON_SANITY_TUNING_RATE = 2.5
+local RAIN_SANITY_TUNING_RATE = 5
 local sanity_fn = function(inst)
 	local delta = 0
 	
