@@ -41,7 +41,7 @@ local sanity_fn = function(inst)
 		end
 	end
 	
-	return delta
+	return delta / 60
 end
 
 -- This initializes for both the server and client. Tags can be added here.
@@ -53,7 +53,7 @@ end
 -- This initializes for the server only. Components are added here.
 local master_postinit = function(inst)
 	-- choose which sounds this character will play
-	inst.soundsname = "wilson"
+	inst.soundsname = "woody"
 
 	-- JOSIAH SPECIFIC STATS
 	inst.components.health:SetMaxHealth(130) -- Lower than Wilson (150)
