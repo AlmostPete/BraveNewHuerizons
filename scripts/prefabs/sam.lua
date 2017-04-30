@@ -37,7 +37,7 @@ local master_postinit = function(inst)
 	inst.components.sanity:SetMax(200)
 	
 	-- Damage multiplier (optional)
-	inst.components.combat.damagemultiplier = 1
+	inst.components.combat.damagemultiplier = 1.15
 
 	-- Other health things
 	inst.components.health.absorb = 0.1

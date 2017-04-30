@@ -157,14 +157,14 @@ local STRINGS = GLOBAL.STRINGS
 
 -- Set the Character descriptions
 -- ========== COREY ==========
-GLOBAL.STRINGS.CHARACTER_TITLES.corey = "A Fucking Might Bean"
+GLOBAL.STRINGS.CHARACTER_TITLES.corey = "The Adventurer"
 GLOBAL.STRINGS.CHARACTER_NAMES.corey = "Corey" 
-GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.corey = "*A thing about this person."
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.corey = "* Has a wicked throwing arm.\n* Can see farther from frisbee golf practice."
 GLOBAL.STRINGS.CHARACTER_QUOTES.corey = "\"Those were people?\""
 -- ========== JOSIAH ==========
-GLOBAL.STRINGS.CHARACTER_TITLES.josiah = "The Josiah"
+GLOBAL.STRINGS.CHARACTER_TITLES.josiah = "The Lurker"
 GLOBAL.STRINGS.CHARACTER_NAMES.josiah = "Clefspeare" 
-GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.josiah = "*A thing about this person."
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.josiah = "* Loves the rain, especially warm rain.\n* Who needs food to live?"
 GLOBAL.STRINGS.CHARACTER_QUOTES.josiah = "\"I remember when they first invented chocolate. I hated it!\""
 -- ========== MATT ==========
 GLOBAL.STRINGS.CHARACTER_TITLES.matt = "Is Matt"
@@ -184,7 +184,7 @@ GLOBAL.STRINGS.CHARACTER_QUOTES.sarah = "\"Eat this, you little shit!\""
 -- ========== SEAN ==========
 GLOBAL.STRINGS.CHARACTER_TITLES.sean = "The Sean"
 GLOBAL.STRINGS.CHARACTER_NAMES.sean = "Sean" 
-GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sean = "*Probably not the worst human. Probably."
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sean = "* Often attempts to grow a beard."
 GLOBAL.STRINGS.CHARACTER_QUOTES.sean = "\"Your memes are bad, and you should feel bad.\""
 -- ========== STEVE ==========
 GLOBAL.STRINGS.CHARACTER_TITLES.steve = "The Rude Dude"

@@ -52,6 +52,13 @@ local master_postinit = function(inst)
 	-- Sanity stuff
 	inst.components.sanity.night_drain_mult = 1.5
 	inst.components.sanity.custom_rate_fn = sanity_fn
+
+	-- Teehee joke time
+	inst:ListenForEvent("oneat", function(inst, data)
+		local present = SpawnPrefab("poop")
+		present.Transform:SetPosition(inst.Transform:GetWorldPosition())
+		inst.components.talker:Say("oopsie, made a poopsie")
+	end)
 	
 	inst.OnLoad = onload
 	inst.OnNewSpawn = onload
