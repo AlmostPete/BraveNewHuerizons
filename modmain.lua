@@ -157,40 +157,40 @@ local STRINGS = GLOBAL.STRINGS
 
 -- Set the Character descriptions
 -- ========== COREY ==========
-GLOBAL.STRINGS.CHARACTER_TITLES.corey = "The Corey"
+GLOBAL.STRINGS.CHARACTER_TITLES.corey = "The Adventurer"
 GLOBAL.STRINGS.CHARACTER_NAMES.corey = "Corey" 
-GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.corey = "*A thing about this person."
-GLOBAL.STRINGS.CHARACTER_QUOTES.corey = "\"Corey quote.\""
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.corey = "* Has a wicked throwing arm.\n* Can see farther from frisbee golf practice."
+GLOBAL.STRINGS.CHARACTER_QUOTES.corey = "\"Those were people?\""
 -- ========== JOSIAH ==========
-GLOBAL.STRINGS.CHARACTER_TITLES.josiah = "The Josiah"
-GLOBAL.STRINGS.CHARACTER_NAMES.josiah = "Josiah" 
-GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.josiah = "*A thing about this person."
-GLOBAL.STRINGS.CHARACTER_QUOTES.josiah = "\"Josiah quote.\""
+GLOBAL.STRINGS.CHARACTER_TITLES.josiah = "The Lurker"
+GLOBAL.STRINGS.CHARACTER_NAMES.josiah = "Clefspeare" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.josiah = "* Loves the rain, especially warm rain.\n* Who needs food to live?"
+GLOBAL.STRINGS.CHARACTER_QUOTES.josiah = "\"I remember when they first invented chocolate. I hated it!\""
 -- ========== MATT ==========
-GLOBAL.STRINGS.CHARACTER_TITLES.matt = "The Matt"
-GLOBAL.STRINGS.CHARACTER_NAMES.matt = "Matt" 
-GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.matt = "*A thing about this person."
-GLOBAL.STRINGS.CHARACTER_QUOTES.matt = "\"Matt quote.\""
+GLOBAL.STRINGS.CHARACTER_TITLES.matt = "Is Matt"
+GLOBAL.STRINGS.CHARACTER_NAMES.matt = "Is Matt" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.matt = "*Is Matt"
+GLOBAL.STRINGS.CHARACTER_QUOTES.matt = "\"Is Matt\""
 -- ========== SAM ==========
-GLOBAL.STRINGS.CHARACTER_TITLES.sam = "The Sam"
+GLOBAL.STRINGS.CHARACTER_TITLES.sam = "The Burly Boi"
 GLOBAL.STRINGS.CHARACTER_NAMES.sam = "Sam" 
 GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sam = "*A thing about this person."
-GLOBAL.STRINGS.CHARACTER_QUOTES.sam = "\"Sam quote.\""
+GLOBAL.STRINGS.CHARACTER_QUOTES.sam = "\"Bottom Text\""
 -- ========== SARAH ==========
-GLOBAL.STRINGS.CHARACTER_TITLES.sarah = "The Sarah"
-GLOBAL.STRINGS.CHARACTER_NAMES.sarah = "Sarah" 
+GLOBAL.STRINGS.CHARACTER_TITLES.sarah = "The Cooking Matriarch"
+GLOBAL.STRINGS.CHARACTER_NAMES.sarah = "Squad Mom" 
 GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sarah = "*A thing about this person."
-GLOBAL.STRINGS.CHARACTER_QUOTES.sarah = "\"Sarah quote.\""
+GLOBAL.STRINGS.CHARACTER_QUOTES.sarah = "\"Eat this, you little shit!\""
 -- ========== SEAN ==========
 GLOBAL.STRINGS.CHARACTER_TITLES.sean = "The Sean"
 GLOBAL.STRINGS.CHARACTER_NAMES.sean = "Sean" 
-GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sean = "*Probably not the worst human. Probably."
-GLOBAL.STRINGS.CHARACTER_QUOTES.sean = "\"They dont say it be like it is, but it do.\""
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.sean = "* Often attempts to grow a beard."
+GLOBAL.STRINGS.CHARACTER_QUOTES.sean = "\"Your memes are bad, and you should feel bad.\""
 -- ========== STEVE ==========
-GLOBAL.STRINGS.CHARACTER_TITLES.steve = "The Steve"
-GLOBAL.STRINGS.CHARACTER_NAMES.steve = "Steve" 
-GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.steve = "*A thing about this person."
-GLOBAL.STRINGS.CHARACTER_QUOTES.steve = "\"Steve quote.\""
+GLOBAL.STRINGS.CHARACTER_TITLES.steve = "The Rude Dude"
+GLOBAL.STRINGS.CHARACTER_NAMES.steve = "Steb" 
+GLOBAL.STRINGS.CHARACTER_DESCRIPTIONS.steve = "*Most definately the worst human. Definately."
+GLOBAL.STRINGS.CHARACTER_QUOTES.steve = "\"Hue Hue Hue\""
 
 -- Load the custom character speech
 STRINGS.CHARACTERS.COREY = require "speech_corey"

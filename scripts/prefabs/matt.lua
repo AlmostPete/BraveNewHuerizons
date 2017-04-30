@@ -2,14 +2,17 @@ local MakePlayerCharacter = require "prefabs/player_common"
 
 local assets = {
 	Asset("SCRIPT", "scripts/prefabs/player_common.lua"),
-	Asset("ANIM", "anim/beard.zip"),
 
 	-- Don't forget to include your character's custom assets!
 	Asset("ANIM", "anim/matt.zip"),
 }
 
 local prefabs = {
-	"beardhair"
+	
+}
+
+local start_inv = {
+	
 }
 
 -- When loading or spawning the character
@@ -26,10 +29,10 @@ end
 -- This initializes for the server only. Components are added here.
 local master_postinit = function(inst)
 	-- choose which sounds this character will play
-	inst.soundsname = "wilson"
+	inst.soundsname = "wickerbottom"
 	
 	-- Stats	
-	inst.components.health:SetMaxHealth(150)
+	inst.components.health:SetMaxHealth(110) -- Default is 150
 	inst.components.hunger:SetMax(150)
 	inst.components.sanity:SetMax(200)
 	
@@ -43,4 +46,4 @@ local master_postinit = function(inst)
 	inst.OnNewSpawn = onload
 end
 
-return MakePlayerCharacter("matt", prefabs, assets, common_postinit, master_postinit)
+return MakePlayerCharacter("matt", prefabs, assets, common_postinit, master_postinit, start_inv)
