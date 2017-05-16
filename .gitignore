@@ -2,3 +2,5 @@ anim/*.zip
 *.tex
 *.xml
 exported/**/*.zip
+!modicon.tex
+!modicon.xml
